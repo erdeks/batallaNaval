@@ -1,0 +1,45 @@
+.fondo{
+  background-image: url("fondo.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.contenedor{
+	width: 350px;
+	height: 400px;
+	padding: 10px;
+	background: rgba(211, 211, 211, 0.6);
+}
+.center{
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+table{
+  border: 5px solid black;
+  border-collapse: collapse;
+
+}
+
+td{
+  border: 3px solid black;
+  text-align: center;
+  height: 30px;
+  width: 30px;
+}
+
+.cabecera{
+  padding: 3px;
+  border: 3px solid black ;
+  text-align: center;
+  font-weight: bold;
+  background-color: purple;
+  color: pink;
+
+}
+.par{
+  background-color: magenta;
+
+}
